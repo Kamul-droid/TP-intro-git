@@ -1,0 +1,179 @@
+/*ELEMENT DE LA PAGE*/
+#global
+{
+min-width:600px;
+}
+#titre_principal
+{
+    width :50%;
+}
+#bloc_page
+{
+   
+   width: 75%;
+    margin: auto;
+    background-color: white;
+}
+body 
+{
+    font-family : Arial, Helvetica, sans-serif, "arial", sans-serif;
+    min-width:600px;
+    margin: 0;
+    padding: 0;
+    color: ##FFFFFF;
+    background-image: url(Images/main.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:auto;    
+}
+
+
+
+/*HEADER*/
+
+
+#banniere_image
+{
+   
+   width: 100%;
+    margin: auto;
+    background-color : white;
+}
+
+#logo 
+{ 
+margin-left : 15px;
+width : 70%;
+vertical-align: middle;
+
+}
+#logo, nav li
+{
+display : inline-block;
+position: top;
+}
+
+
+/*NAVIGATION*/
+
+nav
+{
+right : 5px;
+width:10%;
+display:inline-block;
+}
+li {
+display :inline-block;
+}
+
+ 
+ul#nav {
+list-style-type : none;
+right :20px;
+}
+
+
+
+/*BOUTON*/
+.bouton {
+    width:auto;
+    padding:8px 0;
+    text-align:center;
+    display: inline-block;
+    margin:0 8px 0 0;
+    border-radius:7px;
+    font-size: 0.85em;
+    width:120px;
+    color:##FFFFFF;
+    font-family: Arial,sans-serif;
+    box-shadow: 0 0 1px rgba( 0, 0, 0, 0.2), 0 -1px 0 rgba( 255, 255, 255, 0.1);
+    text-shadow: 0px 1px 0px rgba( 255, 255, 255, 0.3);
+}
+.bouton, .bouton:active {
+    background: #444;
+    background: -webkit-linear-gradient( #FFFFFF, #F48200);
+    background: -moz-linear-gradient( #FFFFFF, #F48200);
+    background: -ms-linear-gradient( #FFFFFF, #F48200);
+    background: -o-linear-gradient( #FFFFFF, #F48200);
+    background: linear-gradient( #FFFFFF, #F48200);
+}
+
+
+/*ELEMENTS DE LA PAGE*/
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    font-size:1.125em;
+    margin-left : 0;
+}
+
+em {
+    font-weight: bold;
+    text-align: left;
+    font-size : 1em;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+p  {
+    font-size : 0.96em;
+    text-align : justify;
+    padding : 12px;
+    margin : auto;
+    margin-left : 8px;
+    height: auto;
+    width: auto\9; /* ie8 */
+    word-wrap: normal;
+}
+
+section {
+    text-align : justify;
+    background-color: white;
+    width : 90%;
+    margin: auto;
+    
+}
+
+article, aside{
+display:inline-block;
+vertical-align: middle;
+}
+aside
+{
+    display:inline-block;
+    width: 35%;
+    background-color: #F48200;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+
+    
+}
+article{
+width:45;
+
+}
+iframe {
+width:100%}
+#navigation img{
+margin:0px 50px 0px 50px;
+}
+#navigation {
+margin-left:45px;}
+
+
+
+/*FOOTER*/
+
+footer {
+
+    background-color: #4C1B1B;
+    text-align: center;
+    color : white;
+}
+footer  p{
+    text-align: center;
+    color : white;
+}
