@@ -111,7 +111,7 @@ def master():
         displayCache(cache)
  
 """Give a name and make comments"""
-
+#a
 def chooseGame(S,possibles,results,tries):
     if tries == 1:
         return [1,1,2,2]
